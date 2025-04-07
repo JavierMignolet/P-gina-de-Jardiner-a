@@ -1,10 +1,12 @@
+<img src="https://github.com/JavierMignolet/P-gina-de-Jardiner-a/blob/main/Imagenes/web%20terminada/inicio1.jpg?raw=true" width="1200" height="600" />
+
 # Página de Jardinería
 
-En una página web personalizada para empresa de Jardineriia HTML, CSS y JavaScript
+Es una página web personalizada para empresa de Jardinería que se creo con HTML, CSS y JavaScript
 
 ## Descripción 📑
 
-Armado de una pagina web personalizada para un negocio de jardineria, necesitaba obtener mas clientes y mediante wordpress, html, javascript y css logramos nuestro objetivo. Creamos una pagina dinamica, y de facil navegacion, para lograr una buena interaccion de los usuarios al momento de visitarla. Tambien le añadimos la creacion de un logotipo personalizado para nuestro cliente.
+Armado de una pagina web personalizada para un negocio de jardineria, necesitaba obtener mas clientes y un filtro para sus consultas on-line. Mediante html, javascript y css logramos nuestro objetivo. Creamos una pagina dinamica, y de facil navegacion, para lograr una buena interaccion de los usuarios al momento de visitarla. Tambien le añadimos la creacion de un logotipo personalizado para nuestro cliente.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
@@ -19,12 +21,11 @@ Armado de una pagina web personalizada para un negocio de jardineria, necesitaba
    - Personalización de botones, inputs y tablas para optimizar la experiencia del usuario.
 
 3. **Programación en JavaScript:**
-   - Manipulación del DOM para actualizar la interfaz con la información del Pokémon buscado.
+   - Manipulación del DOM para actualizar la interfaz.
    - Manejo de eventos en formularios para prevenir comportamientos por defecto y ejecutar la búsqueda de forma interactiva.
    - Implementación de manejo de errores y reseteo de la interfaz en caso de búsquedas no exitosas.
 
 4. **Buenas Prácticas y Accesibilidad:**
-   - Uso adecuado de etiquetas `label` y atributos `role` para mejorar la accesibilidad.
    - Separación clara entre estructura (HTML), presentación (CSS) y comportamiento (JavaScript) para facilitar el mantenimiento.
    - Optimización de la interfaz para que sea intuitiva y amigable para el usuario.
 
