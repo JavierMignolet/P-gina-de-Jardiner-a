@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos - Jardinería</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <nav class="menu">
+        <img src="Imagenes/Logo.jpg" alt="Logo de la empresa" class="logo" />
+
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li class="submenu">
+            <a href="/servicios.html">Servicios</a>
+            <ul class="dropdown">
+              <li><a href="/servicios.html#dis">Diseño y Parquización</a></li>
+              <li><a href="/servicios.html#rie">Riego</a></li>
+              <li><a href="/servicios.html#man">Mantenimiento</a></li>
+              <li><a href="/servicios.html#par">Estanques</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a href="/productos.html">Productos</a>
+            <ul class="dropdown">
+              <li><a href="/productos.html#sisriego">Sistema de Riego</a></li>
+              <li>
+                <a href="/productos.html#fer">Fertilizantes y Agroquimicos</a>
+              </li>
+              <li><a href="/productos.html#arb">Arboles Nativos</a></li>
+            </ul>
+          </li>
+          <li><a href="/formulario.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <img src="Imagenes/productos.webp" alt="Producto" class="banner1" />
+      <img src="Imagenes/productos1.webp" alt="Producto" class="banner1" />
+
+      <header>
+        <h1 class="titulo">Nuestros Productos</h1>
+        <p class="descripcion">
+          Descubre nuestra variedad de productos para el cuidado y mantenimiento
+          de tu jardín.
+        </p>
+      </header>
+
+      <section class="productos">
+        <div class="producto" id="sisriego">
+          <h3>Sistema de Riego</h3>
+          <div class="galeria">
+            <img src="Imagenes/insumos.webp" alt="Sistema de Riego" />
+            <img src="Imagenes/insumos1.webp" alt="Sistema de Riego" />
+            <img src="Imagenes/insumos2.webp" alt="Sistema de Riego" />
+            <img src="Imagenes/insumos3.webp" alt="Sistema de Riego" />
+          </div>
+          <p class="leyenda">
+            Ofrecemos sistemas de riego automatizados para garantizar el óptimo
+            crecimiento de tu jardín.
+          </p>
+          <button
+            class="redirect-button btn"
+            data-form="formulario3"
+            data-item="sistemaDeRiego"
+          >
+            Solicitar Lista Precios
+          </button>
+        </div>
+      </section>
+
+      <section class="productos">
+        <div class="producto" id="fer">
+          <h3>Fertilizantes y Agroquímicos</h3>
+          <div class="galeria">
+            <img
+              src="Imagenes/fertilizantes.webp"
+              alt="Fertilizantes y Agroquímicos"
+            />
+            <img
+              src="Imagenes/fertilizantes1.webp"
+              alt="Fertilizantes y Agroquímicos"
+            />
+            <img
+              src="Imagenes/fertilizantes2.webp"
+              alt="Fertilizantes y Agroquímicos"
+            />
+            <img
+              src="Imagenes/fertilizantes3.webp"
+              alt="Fertilizantes y Agroquímicos"
+            />
+          </div>
+          <p class="leyenda">
+            Contamos con fertilizantes de calidad para el cuidado y crecimiento
+            saludable de tus plantas.
+          </p>
+          <button
+            class="redirect-button btn"
+            data-form="formulario3"
+            data-item="fertilizantesYAgroquimicos"
+          >
+            Solicitar Lista Precios
+          </button>
+        </div>
+      </section>
+
+      <section class="productos">
+        <div class="producto" id="arb">
+          <h3>Árboles Nativos</h3>
+          <div class="galeria">
+            <img src="Imagenes/nativos.webp" alt="Árboles Nativos" />
+            <img src="Imagenes/nativos1.webp" alt="Árboles Nativos" />
+            <img src="Imagenes/nativos2.webp" alt="Árboles Nativos" />
+            <img src="Imagenes/nativos3.webp" alt="Árboles Nativos" />
+          </div>
+          <p class="leyenda">
+            Disponemos de árboles nativos ideales para promover la biodiversidad
+            y embellecer tu jardín.
+          </p>
+          <button
+            class="redirect-button btn"
+            data-form="formulario3"
+            data-item="arbolesNativos"
+          >
+            Solicitar Lista Precios
+          </button>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2025 Nativo. Todos los derechos reservados.</p>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/servicios.html">Servicios</a></li>
+        <li><a href="/productos.html">Productos</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

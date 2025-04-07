@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Múltiples Formularios</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <img src="Imagenes/Logo.jpg" alt="Logo de la empresa" class="logo" />
+
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li class="submenu">
+          <a href="/servicios.html">Servicios</a>
+          <ul class="dropdown">
+            <li><a href="/servicios.html#dis">Diseño y Parquización</a></li>
+            <li><a href="/servicios.html#rie">Riego</a></li>
+            <li><a href="/servicios.html#man">Mantenimiento</a></li>
+            <li><a href="/servicios.html#par">Estanques</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="/productos.html">Productos</a>
+          <ul class="dropdown">
+            <li><a href="/productos.html#sisriego">Sistema de Riego</a></li>
+            <li>
+              <a href="/productos.html#fer">Fertilizantes y Agroquimicos</a>
+            </li>
+            <li><a href="/productos.html#arb">Arboles Nativos</a></li>
+          </ul>
+        </li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1 class="titulo">Contacto</h1>
+      <p class="descripcion">
+        Déjanos tu consulta y nos pondremos en contacto contigo.
+      </p>
+    </header>
+    <br />
+    <!-- Contenedor de botones -->
+    <div class="button-container">
+      <button id="Consulta" class="btn1" data-target="formulario1">
+        Consulta
+      </button>
+      <button id="Cotización" class="btn1" data-target="formulario2">
+        Cotización
+      </button>
+      <button id="Lista de Precios" class="btn1" data-target="formulario3">
+        Lista de Precios
+      </button>
+    </div>
+    <button id="btn-volver" style="display: none">Volver</button>
+    <!-- Formularios ocultos -->
+    <div id="formulario1" class="formulario">
+      <h2>Contacto</h2>
+      <form class="form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="consulta">Consulta:</label>
+        <textarea id="consulta" name="consulta" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div id="formulario2" class="formulario">
+      <h2>Solicitud de Cotización</h2>
+      <form id="formServicios">
+        <label for="nombreServ">Nombre:</label>
+        <input type="text" id="nombreServ" name="nombre" required />
+
+        <label for="telefonoServ">Teléfono:</label>
+        <input type="tel" id="telefonoServ" name="telefono" required />
+
+        <label for="emailServ">Email:</label>
+        <input type="email" id="emailServ" name="email" required />
+
+        <label for="servicios">Seleccione los servicios:</label>
+        <div class="checkbox-group">
+          <label
+            ><input
+              type="checkbox"
+              name="servicio"
+              value="diseñoYparquizaciones"
+            />
+            Diseño y Parquización</label
+          >
+          <label
+            ><input type="checkbox" name="servicio" value="riego" />
+            Riego</label
+          >
+          <label
+            ><input type="checkbox" name="servicio" value="mantenimiento" />
+            Mantenimiento</label
+          >
+          <label
+            ><input type="checkbox" name="servicio" value="estanques" />
+            Estanques</label
+          >
+        </div>
+
+        <label for="terreno" id="">Dimensiones del Terreno (m²):</label>
+        <input type="number" id="terreno" name="terreno" />
+        <label for="consulta" id="consult">Información adicional:</label>
+        <textarea id="consulta" name="consulta"></textarea>
+
+        <button type="submit">Solicitar Cotización</button>
+      </form>
+    </div>
+
+    <div id="formulario3" class="formulario">
+      <h2>Solicitud Lista de Precios</h2>
+      <form class="formProductos">
+        <label for="nombreProd">Nombre:</label>
+        <input type="text" id="nombreProd" name="nombre" required />
+
+        <label for="telefonoProd">Teléfono:</label>
+        <input type="tel" id="telefonoProd" name="telefono" required />
+
+        <label for="emailProd">Email:</label>
+        <input type="email" id="emailProd" name="email" required />
+
+        <label for="productos">Seleccione los productos:</label>
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" name="producto" value="sistemaDeRiego" />
+            Sistema de Riego</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="producto"
+              value="fertilizantesYAgroquimicos"
+            />
+            Fertilizantes y Agroquímicos</label
+          >
+          <label
+            ><input type="checkbox" name="producto" value="arbolesNativos" />
+            Árboles Nativos</label
+          >
+        </div>
+
+        <label for="consulta">Información adicional:</label>
+        <textarea id="consulta" name="consulta"></textarea>
+
+        <button type="submit">Solicitar Cotización</button>
+      </form>
+    </div>
+
+    <!-- Mensaje de agradecimiento -->
+    <div id="mensaje" class="mensaje">
+      <p>Gracias por su mensaje. En breve nos comunicaremos con usted.</p>
+      <button id="reset">Nueva consulta</button>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2025 Nativo. Todos los derechos reservados.</p>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/servicios.html">Servicios</a></li>
+        <li><a href="/productos.html">Productos</a></li>
+        <li><a href="/formulario.html">Contacto</a></li>
+      </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
