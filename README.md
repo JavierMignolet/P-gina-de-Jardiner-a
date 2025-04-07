@@ -1,4 +1,4 @@
-<img src="https://github.com/JavierMignolet/P-gina-de-Jardiner-a/blob/main/Imagenes/web%20terminada/inicio1.jpg?raw=true" width="1200" height="600" />
+<img src="https://github.com/JavierMignolet/P-gina-de-Jardiner-a/blob/main/Imagenes/web%20terminada/inicio1.jpg?raw=true" width="1200" height="500" />
 
 # Página de Jardinería
 
