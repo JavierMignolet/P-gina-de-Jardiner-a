@@ -1,4 +1,5 @@
-<img src="https://github.com/JavierMignolet/P-gina-de-Jardiner-a/blob/main/Imagenes/web%20terminada/inicio1.jpg?raw=true" width="1200" height="500" />
+![image](https://github.com/user-attachments/assets/4fc81dd5-2f14-4c37-811b-6bea070096fb)
+
 
 # Página de Jardinería
 
